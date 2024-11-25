@@ -38,7 +38,7 @@ function App() {
     if (score === null) return;
     
     const text = `My dev chill-o-meter is ${score}/100. Find out how chill your coding style is!`;
-    const url = 'https://transcendent-trifle-27f42c.netlify.app/';
+    const url = 'https://chilldev-five.vercel.app/';
     const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
     window.open(tweetUrl, '_blank');
   };
