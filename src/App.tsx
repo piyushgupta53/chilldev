@@ -28,7 +28,7 @@ function App() {
       // Reset confetti after animation
       setTimeout(() => setShowConfetti(false), 2000);
     } catch (err) {
-      setError('Could not find this GitHub user. Keep it chill and try again! 😎');
+      setError('Could not find this GitHub user. Keep it chill and try again. 😎');
     } finally {
       setLoading(false);
     }
